@@ -7,8 +7,8 @@ let offset = 0;
 function convertPokemonToLi(pkmn) {
     return `
 
-        <li class="pkmn ${pkmn.type}">
-
+    <li class="pkmn ${pkmn.type}">
+            
             <span class="number">#${pkmn.number}</span>
             <span class="name">${pkmn.name}</span>
 
@@ -18,9 +18,9 @@ function convertPokemonToLi(pkmn) {
                 </ol>
                 <img src="${pkmn.photo}" alt="${pkmn.name}">
             </div>
-            
+             
         </li>
-    `
+      `
 }
 
 function loadPokemonItems(offset, limit) {

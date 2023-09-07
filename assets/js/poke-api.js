@@ -1,7 +1,7 @@
 
 const pokeApi = {}
 
-function convertPokeApiDeatilToPokemon(pokeDetail) {
+function convertPokeApiDetailToPokemon(pokeDetail) {
     const pkmn = new Pokemon()
     pkmn.number = pokeDetail.id
     pkmn.name = pokeDetail.name
